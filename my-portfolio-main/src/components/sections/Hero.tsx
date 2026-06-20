@@ -18,7 +18,7 @@ const Hero = () => {
 
         <div className="w-32 h-32 bg-custom-pink rounded-full border-4 border-black mb-4 flex items-center justify-center text-4xl overflow-hidden">
           <img
-            src="/ashu.png"
+            src="/ashu.jpeg"
             alt="Ashu"
             className="w-full h-full object-cover"
           />

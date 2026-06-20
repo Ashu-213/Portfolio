@@ -49,11 +49,19 @@ const ExperienceCard = ({ role, company, duration, location, description, color 
 const Experience = () => {
   const experiences = [
     {
+      role: "Open Source Contibutor",
+      company: "MusicBlocks (GSoC Organization)",
+      duration: "November 2025 - January 2026",
+      location: "Austin, Texas US · Remote",
+      description: "Merged 2 PRs into MusicBlocks (GSoC Sugar Labs) UI bug fixes and logic improvements in JavaScript",
+      color: "bg-custom-purple"
+    },
+    {
       role: "Intern",
-      company: "DRDO, Ministry of Defence, Govt. of India",
-      duration: "Jun 2026 - Present",
-      location: "Bengaluru, Karnataka, India · On-site",
-      description: "Centre for Artificial Intelligence and Robotics , Defence Research & Development Organisation (DRDO) .",
+      company: "Unified Mentor Pvt. Ltd.",
+      duration: "June 2026 - Present",
+      location: "Gurugram, Hariyana, India · Remote",
+      description: "Developing Online Legal Consultation & Lawyer Aggregation Platform during Internship",
       color: "bg-custom-purple"
     }
   ];

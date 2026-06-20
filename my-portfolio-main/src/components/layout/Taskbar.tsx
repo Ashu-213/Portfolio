@@ -27,7 +27,6 @@ const Taskbar = () => {
     { name: 'EXPERIENCE', id: 'experience' },
     { name: 'PROJECTS', id: 'projects' },
     { name: 'SKILLS', id: 'skills' },
-    { name: 'BLOGS', id: 'blogs' },
     { name: 'EDUCATION', id: 'education' },
 
 

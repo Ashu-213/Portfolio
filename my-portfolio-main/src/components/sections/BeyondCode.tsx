@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FaHandHoldingHeart, FaBullhorn } from 'react-icons/fa';
+import { FaUsers, FaBullhorn } from 'react-icons/fa';
 
 interface SectionProps {
     isOpen: boolean;
@@ -41,12 +41,12 @@ const BeyondCode: React.FC<SectionProps> = ({ isOpen, onToggle }) => {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto relative z-10">
                                 <div className="bg-white border-4 border-black p-8 border-b-8 border-r-8 hover:-translate-y-1 transition-all relative shadow-neo mt-4">
                                     <div className="absolute -top-10 -right-6 w-32 h-32 bg-custom-yellow rounded-full border-4 border-black overflow-hidden shadow-neo z-20">
-                                        <img src="/nss.jpg" alt="NSS" className="w-full h-full object-cover" />
+                                        <img src="/Anterix.jpeg" alt="Anterix" className="w-full h-full object-cover" />
                                     </div>
 
                                     <div className="relative z-10">
                                         <div className="flex items-center gap-3 mb-4">
-                                            <FaHandHoldingHeart className="text-4xl text-custom-red" />
+                                            <FaUsers className="text-4xl text-custom-red" />
                                             <h3 className="text-3xl font-shrikhand">Tech Co-Lead</h3>
                                         </div>
                                         <p className="font-bold text-xl mb-4">@ Anterix Club</p>
@@ -57,26 +57,6 @@ const BeyondCode: React.FC<SectionProps> = ({ isOpen, onToggle }) => {
                                             Recruited, mentored, and managed <span className="font-bold bg-custom-yellow px-1 border border-black">8 Developers</span> across 2 full-stack projects.
                                         </p>
                                     </div>
-                                </div>
-
-                                <div className="bg-white border-4 border-black p-8 border-b-8 border-r-8 hover:-translate-y-1 transition-all relative shadow-neo mt-4">
-                                    <div className="absolute -top-10 -right-6 w-32 h-32 bg-custom-pink rounded-full border-4 border-black overflow-hidden shadow-neo z-20">
-                                        {/* <img src="/lit.jpg" alt="Aakshar" className="w-full h-full object-cover" /> */}
-                                    </div>
-
-                                    {/* <div className="relative z-10">
-                                        <div className="flex items-center gap-3 mb-4">
-                                            <FaBullhorn className="text-4xl text-custom-blue" />
-                                            <h3 className="text-3xl font-shrikhand">Member</h3>
-                                        </div>
-                                        <p className="font-bold text-xl mb-4">@ Aakshar</p>
-                                        <p className="text-sm font-mono bg-custom-green text-black font-bold inline-block px-3 py-1 border-2 border-black rounded-full mb-6 shadow-sm">
-                                            2024 - Present
-                                        </p>
-                                        <p className="text-base font-medium leading-relaxed bg-gray-100 p-4 rounded-2xl border-2 border-black">
-                                            Directed content creation strategies (<span className="font-bold bg-custom-pink px-1 border border-black">30% engagement growth</span>). Hosted/anchored major college fests for <span className="font-bold">500+ students</span>.
-                                        </p>
-                                    </div> */}
                                 </div>
                             </div>
                         </div>
