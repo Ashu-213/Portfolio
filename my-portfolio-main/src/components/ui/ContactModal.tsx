@@ -34,6 +34,9 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
           <a href="https://leetcode.com/u/ashu213/" target="_blank" rel="noreferrer" className="flex items-center gap-3 p-3 bg-orange-200 border-2 border-black rounded-xl hover:translate-x-1 hover:shadow-neo-sm transition-all">
             <FaCode className="text-xl" /> LeetCode
           </a>
+          <a href="https://codeforces.com/profile/ashu2323" target="_blank" rel="noreferrer" className="flex items-center gap-3 p-3 bg-gray-200 border-2 border-black rounded-xl hover:translate-x-1 hover:shadow-neo-sm transition-all">
+            <FaCode className="text-xl" /> Codeforces
+          </a>
         </div>
 
         <button
