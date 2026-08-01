@@ -67,6 +67,7 @@ const Hero = () => {
           <a href="https://github.com/Ashu-213" target="_blank" className="hover:scale-110 transition-transform"><FaGithub /></a>
           <a href="https://www.linkedin.com/in/ashutosh-patidar-04073b348/" target="_blank" className="hover:scale-110 transition-transform text-blue-700"><FaLinkedin /></a>
           <a href="https://leetcode.com/u/ashu213/" target="_blank" className="hover:scale-110 transition-transform text-orange-600"><FaCode /></a>
+          <a href="https://codeforces.com/profile/ashu2323" target="_blank" className="hover:scale-110 transition-transform text-orange-600"><FaCode /></a>
         </div>
       </div>
 
