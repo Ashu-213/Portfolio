@@ -51,7 +51,7 @@ const BeyondCode: React.FC<SectionProps> = ({ isOpen, onToggle }) => {
                                         </div>
                                         <p className="font-bold text-xl mb-4">@ Anterix Club</p>
                                         <p className="text-sm font-mono bg-custom-blue text-black font-bold inline-block px-3 py-1 border-2 border-black rounded-full mb-6 shadow-sm">
-                                            2026 - Present
+                                            Jan 2026 - Aug 2026
                                         </p>
                                         <p className="text-base font-medium leading-relaxed bg-gray-100 p-4 rounded-2xl border-2 border-black">
                                             Recruited, mentored, and managed <span className="font-bold bg-custom-yellow px-1 border border-black">8 Developers</span> across 2 full-stack projects.

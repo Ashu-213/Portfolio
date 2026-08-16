@@ -43,12 +43,12 @@ const Coding: React.FC<SectionProps> = ({ isOpen, onToggle }) => {
                     <span className="text-6xl">⚔️</span>
                   </div>
                   <div className="flex flex-col items-start">
-                    <h3 className="text-3xl font-shrikhand text-green-700 mb-2">Grinding LeetCode</h3>
+                    <h3 className="text-3xl font-shrikhand text-green-700 mb-2">LeetCode</h3>
                     <p className="font-bold text-xl mb-3">
                     Current Rating: 1518
                     </p>
                     <p className="text-base font-medium bg-gray-100 p-3 border-2 border-black inline-block mb-3 shadow-[4px_4px_0_rgba(0,0,0,1)]">
-                      <span className="text-custom-red font-bold underline decoration-custom-red">200+ DSA problems solved and still solving.</span>
+                      <span className="text-custom-red font-bold underline decoration-custom-red">210+ DSA problems solved and still solving.</span>
                     </p>
                     <p className="font-mono text-sm font-bold bg-custom-blue text-black p-2 border-2 border-black w-fit shadow-[4px_4px_0_rgba(0,0,0,1)] hover:-translate-y-1 transition-transform cursor-default">
                       🏆 Rank 3757 in very first Weekly Contest 506 out of 43k+ participants

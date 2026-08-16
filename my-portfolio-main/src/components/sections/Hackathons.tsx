@@ -52,7 +52,7 @@ const Hackathons: React.FC<SectionProps> = ({ isOpen, onToggle }) => {
                                     <div className="p-6 flex flex-col flex-grow">
                                         <div className="flex justify-between items-start mb-4 gap-4">
                                             <h3 className="text-xl font-bold leading-snug">FlipKart Grid 8.0</h3>
-                                            <span className="text-3xl flex-shrink-0">🏆</span>
+                                            <span className="text-3xl flex-shrink-0">🥈</span>
                                         </div>
                                         <p className="font-bold text-lg mb-2 text-custom-purple">Semi-Finalist</p>
                                         <p className="text-sm font-medium text-gray-700 leading-relaxed border-t-4 border-black border-dashed pt-4 mt-auto">

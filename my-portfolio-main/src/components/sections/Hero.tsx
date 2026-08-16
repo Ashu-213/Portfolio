@@ -100,7 +100,8 @@ const Hero = () => {
             </div>
             <h2 className="text-3xl font-shrikhand mb-4 uppercase">Privacy Notice</h2>
             <p className="font-bold text-lg border-2 border-black p-4 bg-gray-100 rounded-xl leading-snug">
-              Removed resume due to privacy concerns!
+              Removed resume due to privacy concerns! 
+            <p> DM on LinkedIn to get resume. </p>
             </p>
             <button
               onClick={() => setIsResumeModalOpen(false)}
