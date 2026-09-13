@@ -45,7 +45,7 @@ const Coding: React.FC<SectionProps> = ({ isOpen, onToggle }) => {
                   <div className="flex flex-col items-start">
                     <h3 className="text-3xl font-shrikhand text-green-700 mb-2">LeetCode</h3>
                     <p className="font-bold text-xl mb-3">
-                    Current Rating: 1590
+                    Current Rating: 1600
                     </p>
                     <p className="text-base font-medium bg-gray-100 p-3 border-2 border-black inline-block mb-3 shadow-[4px_4px_0_rgba(0,0,0,1)]">
                       <span className="text-custom-red font-bold underline decoration-custom-red">250+ DSA problems solved and still solving.</span>
