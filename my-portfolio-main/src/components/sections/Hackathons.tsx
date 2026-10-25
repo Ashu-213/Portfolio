@@ -62,6 +62,29 @@ const Hackathons: React.FC<SectionProps> = ({ isOpen, onToggle }) => {
                                 </div>
 
                                 <div className="border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-y-[-4px] transition-all flex flex-col h-full relative bg-white">
+                                    <div className="border-b-4 border-black px-3 py-2 flex justify-between items-center bg-custom-blue">
+                                        <div className="flex gap-2">
+                                            <div className="w-3 h-3 rounded-full bg-white border-2 border-black"></div>
+                                            <div className="w-3 h-3 rounded-full bg-white border-2 border-black"></div>
+                                            <div className="w-3 h-3 rounded-full bg-white border-2 border-black"></div>
+                                        </div>
+                                        <span className="font-mono text-[10px] font-black uppercase tracking-widest">
+                                            hackathon.exe
+                                        </span>
+                                    </div>
+                                    <div className="p-6 flex flex-col flex-grow">
+                                        <div className="flex justify-between items-start mb-4 gap-4">
+                                            <h3 className="text-xl font-bold leading-snug">The ken's Case-Build Competition 2026</h3>
+                                            <span className="text-3xl flex-shrink-0">🥈</span>
+                                        </div>
+                                        <p className="font-bold text-lg mb-2 text-custom-blue">Semi-Finalist</p>
+                                        <p className="text-sm font-medium text-gray-700 leading-relaxed border-t-4 border-black border-dashed pt-4 mt-auto">
+                                            ranking in the top 5% among 10,000 teams nationwide
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div className="border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-y-[-4px] transition-all flex flex-col h-full relative bg-white">
                                     <div className="border-b-4 border-black px-3 py-2 flex justify-between items-center bg-custom-yellow">
                                         <div className="flex gap-2">
                                             <div className="w-3 h-3 rounded-full bg-white border-2 border-black"></div>
@@ -85,28 +108,7 @@ const Hackathons: React.FC<SectionProps> = ({ isOpen, onToggle }) => {
                                 </div>
 
 
-                                <div className="border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-y-[-4px] transition-all flex flex-col h-full relative bg-white">
-                                    <div className="border-b-4 border-black px-3 py-2 flex justify-between items-center bg-custom-blue">
-                                        <div className="flex gap-2">
-                                            <div className="w-3 h-3 rounded-full bg-white border-2 border-black"></div>
-                                            <div className="w-3 h-3 rounded-full bg-white border-2 border-black"></div>
-                                            <div className="w-3 h-3 rounded-full bg-white border-2 border-black"></div>
-                                        </div>
-                                        <span className="font-mono text-[10px] font-black uppercase tracking-widest">
-                                            hackathon.exe
-                                        </span>
-                                    </div>
-                                    <div className="p-6 flex flex-col flex-grow">
-                                        <div className="flex justify-between items-start mb-4 gap-4">
-                                            <h3 className="text-xl font-bold leading-snug">Cyber Carnival'26 Hackathon</h3>
-                                            <span className="text-3xl flex-shrink-0">🥈</span>
-                                        </div>
-                                        <p className="font-bold text-lg mb-2 text-custom-blue">Semi-Finalist</p>
-                                        <p className="text-sm font-medium text-gray-700 leading-relaxed border-t-4 border-black border-dashed pt-4 mt-auto">
-                                            Cleared Round 2 out of 3.
-                                        </p>
-                                    </div>
-                                </div>
+                                
 
 
                                 <div className="border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-y-[-4px] transition-all flex flex-col h-full relative bg-white">
